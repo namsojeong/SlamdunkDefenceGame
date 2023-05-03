@@ -23,12 +23,12 @@ public class EnemyWaveUI : MonoBehaviour
     {
         mainCamera = Camera.main;
         enemyWaveManager.OnWaveNumberChanged += EnemyWaveManager_OnWaveNumberChanged;
-        SetWaveMessageText("Wave " + enemyWaveManager.GetWaveNumber());
+        SetWaveMessageText("Defence " + enemyWaveManager.GetWaveNumber());
     }
 
     private void EnemyWaveManager_OnWaveNumberChanged(object sender, System.EventArgs e)
     {
-        SetWaveNumberText("Wave " + enemyWaveManager.GetWaveNumber());
+        SetWaveNumberText("Defence " + enemyWaveManager.GetWaveNumber());
     }
 
     private void Update()
@@ -101,7 +101,7 @@ public class EnemyWaveUI : MonoBehaviour
         }
         else
         {
-            SetWaveMessageText("Next Wave in " + nextWaveSpawnTimer.ToString("F1") + "s");
+            SetWaveMessageText("다음 디펜스까지 " + nextWaveSpawnTimer.ToString("F1") + "s");
         }
     }
 

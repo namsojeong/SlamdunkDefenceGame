@@ -3,7 +3,7 @@ guid: 0dcb8c89338ce274983f3207c2968444
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -23,6 +23,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -31,16 +33,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 0
   spriteMeshType: 0
   alignment: 0
@@ -54,10 +56,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -83,9 +89,519 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 341
+        width: 121
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dd47d8a9d448b458a98b4b81cfc589
+      internalID: -1653352078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 340
+        width: 131
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca673dda34d9b104897fd241ba418ae9
+      internalID: 884756420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_2
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 342
+        width: 37
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f156c14332d54ae4692b862d3040127e
+      internalID: 394407085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_3
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 342
+        width: 101
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858b42ebb40fbe74ba40122bd8a0b710
+      internalID: 1150683137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_4
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 341
+        width: 141
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19b5d006a67c3f448649f27ac1d239d
+      internalID: 2084083175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_5
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 342
+        width: 103
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e481ee9a750237747bc32c3de6cbdf89
+      internalID: -1853217476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_6
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 342
+        width: 123
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7169ec469a92c5949ae943c2e6f803fb
+      internalID: -1996133895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_7
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 349
+        width: 204
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24136760375fca744a0fdaced594cadf
+      internalID: -278307424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 313
+        width: 1525
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9220cfdc32dd7b24982e3c99a833366b
+      internalID: 995124289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 115
+        width: 161
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f774b75fd5ffc3f469870977719ea32f
+      internalID: 291986775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_10
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 113
+        width: 140
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafd79c76b9400d438e062f795fed2b2
+      internalID: 619659251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_11
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 115
+        width: 102
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033fc77d27d49dc468cc8501d79ab348
+      internalID: 1700667793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_12
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 115
+        width: 99
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f26a59ba77edb4ba03ddf4ea2baa28
+      internalID: -1506410378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_13
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 115
+        width: 103
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5600a80ef68a645973deeacd7d23d0
+      internalID: 1277573578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_14
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 115
+        width: 133
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd71f97556eae424ab0f70066d396236
+      internalID: -161742658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_15
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 113
+        width: 140
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f896081164d35554e909caf4ca24c33f
+      internalID: 1871619199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_16
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 115
+        width: 102
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affaf105d1b2c7a43b4304095e7a1d28
+      internalID: -561301131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_17
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 115
+        width: 123
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1229e39a0747040ae953793db0618c
+      internalID: 19205468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 420
+        width: 1383
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2501c998df348844b7763a02eaacee1
+      internalID: -1842709971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 338
+        width: 1510
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678d69af4817e7c4db721bb1374b1426
+      internalID: -918741840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 88
+        width: 1490
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2706425b8de1f46b12cab8231e12df
+      internalID: 94848463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuilderDefenderLogo_21
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 63
+        width: 1576
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cd62825faa5c149980cf1068e90206
+      internalID: 1939029530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -96,6 +612,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      BuilderDefenderLogo_3: 1150683137
+      BuilderDefenderLogo_13: 1277573578
+      BuilderDefenderLogo_18: -1842709971
+      BuilderDefenderLogo_21: 1939029530
+      BuilderDefenderLogo_20: 94848463
+      BuilderDefenderLogo_0: -1653352078
+      BuilderDefenderLogo_8: 995124289
+      BuilderDefenderLogo_19: -918741840
+      BuilderDefenderLogo_9: 291986775
+      BuilderDefenderLogo_5: -1853217476
+      BuilderDefenderLogo_7: -278307424
+      BuilderDefenderLogo_10: 619659251
+      BuilderDefenderLogo_1: 884756420
+      BuilderDefenderLogo_4: 2084083175
+      BuilderDefenderLogo_2: 394407085
+      BuilderDefenderLogo_6: -1996133895
+      BuilderDefenderLogo_12: -1506410378
+      BuilderDefenderLogo_14: -161742658
+      BuilderDefenderLogo_15: 1871619199
+      BuilderDefenderLogo_16: -561301131
+      BuilderDefenderLogo_11: 1700667793
+      BuilderDefenderLogo_17: 19205468
   spritePackingTag: 
   pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1

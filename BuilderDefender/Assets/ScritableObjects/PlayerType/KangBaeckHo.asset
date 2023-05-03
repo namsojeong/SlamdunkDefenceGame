@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pf: {fileID: 2707869649954161746, guid: fcc043272c4ffd447820e76d9d803f35, type: 3}
   nameString: "\uAC15\uBC31\uD638"
-  character: {fileID: 21300000, guid: b9e1494e4746d7048ad3ca5ea02eb360, type: 3}
+  character: {fileID: -1264188559, guid: 635c9ca441d830a44bbcb268940d2ef1, type: 3}
   maxHP: 50
   skillCoolTime: 30
   powerType: 1
