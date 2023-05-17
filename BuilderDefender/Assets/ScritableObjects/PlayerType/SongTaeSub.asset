@@ -20,4 +20,4 @@ MonoBehaviour:
   powerType: 0
   constructionResourceCostArray:
   - resourceType: {fileID: 11400000, guid: 1a6df0349a853b64f9f2b71596eadcee, type: 2}
-    amount: 100
+    amount: 30

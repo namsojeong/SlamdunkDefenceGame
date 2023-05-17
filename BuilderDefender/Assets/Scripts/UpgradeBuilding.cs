@@ -38,8 +38,9 @@ public class UpgradeBuilding : MonoBehaviour
         building.GetBuilding.resourceGeneratorData.timerMax -= 0.2f;
         Mathf.Clamp(building.GetBuilding.resourceGeneratorData.timerMax, 0.5f, 1f);
 
-        SoundManager.Instance.PlaySound(Sound.UpgradeSound);
         transform.DOScale(originScale * new Vector2(level, level), 1f).SetEase(Ease.OutBounce);
+
+        SoundManager.Instance.PlaySound(Sound.UpgradeSound);
         mergeParticle.Play();
         mergeObj.DeleteBuild();
     }

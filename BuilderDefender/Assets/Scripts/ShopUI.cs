@@ -37,10 +37,11 @@ public class ShopUI : MonoBehaviour
             Transform shopTemp = Instantiate(shopTemplate, content.transform);
             shopTemp.Find("sprite").GetComponent<Image>().sprite = player.character;
 
+                shopTemp.transform.Find("costText").GetComponent<TextMeshProUGUI>().SetText(player.constructionResourceCostArray[0].amount.ToString());
+
             Button purchaseBtn = shopTemp.Find("purchaseButton").GetComponent<Button>();
             purchaseBtn.onClick.AddListener(() =>
             {
-                shopTemp.transform.Find("costText").GetComponent<TextMeshProUGUI>().SetText(player.constructionResourceCostArray[0].amount.ToString());
                 PurchaseComparison(player);
             });
             purchaseBtn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().SetText(player.nameString);
